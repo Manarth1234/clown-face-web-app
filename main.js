@@ -34,3 +34,6 @@ function draw() {
     image(clown_nose,noseX,noseY,30,30);
     
 }
+function take_snapshot() {
+    save("clown_face.png");
+}
